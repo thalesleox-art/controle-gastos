@@ -28,6 +28,3 @@ frontend/dist
 backend/bin
 backend/obj
 .vs
-
-controle-gastos.db-shm
-controle-gastos.db-wal
