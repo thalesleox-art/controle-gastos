@@ -1,6 +1,6 @@
 # Controle de Gastos Residenciais
 
-Projeto desenvolvido como teste técnico utilizando **.NET 8 (Web API)** no backend e **React + TypeScript + Vite** no frontend.
+Projeto desenvolvido como teste técnico utilizando .NET 8 (Web API) no backend e React + TypeScript + Vite no frontend.
 
 O sistema permite cadastrar pessoas, categorias e transações, aplicando regras de negócio e exibindo relatórios com totais.
 
@@ -8,8 +8,7 @@ O sistema permite cadastrar pessoas, categorias e transações, aplicando regras
 
 ## Tecnologias utilizadas
 
-### Backend
-
+Backend:
 - C#
 - .NET 8
 - ASP.NET Web API
@@ -17,8 +16,7 @@ O sistema permite cadastrar pessoas, categorias e transações, aplicando regras
 - SQLite
 - Swagger
 
-### Frontend
-
+Frontend:
 - React
 - TypeScript
 - Vite
@@ -28,54 +26,62 @@ O sistema permite cadastrar pessoas, categorias e transações, aplicando regras
 
 ## Estrutura do projeto
 
-
 controle-gastos/
-backend/
-ControleGastos.Api/
-frontend/
-
+  backend/
+    ControleGastos.Api/
+  frontend/
 
 ---
 
 ## Executar o Backend
 
 Entrar na pasta da API:
+
 cd backend/ControleGastos.Api
 
 Restaurar pacotes:
+
 dotnet restore
 
 Build (opcional):
+
 dotnet build
 
 Executar:
+
 dotnet run
 
 Swagger:
+
 http://localhost:5000/swagger
 
 O banco SQLite é criado automaticamente na primeira execução.
+
 ---
 
 ## Executar o Frontend
 
 Entrar na pasta:
+
 cd frontend
 
 Instalar dependências:
+
 npm install
 
 Executar:
+
 npm run dev
 
 Abrir no navegador:
+
 http://localhost:5173
 
 ---
 
 ## Funcionalidades
 
-### Pessoas
+Pessoas
 
 - Criar
 - Editar
@@ -83,11 +89,11 @@ http://localhost:5173
 - Listar
 
 Regra:
-- Ao excluir uma pessoa, todas as transações são removidas.
+Ao excluir uma pessoa, todas as transações são removidas.
 
 ---
 
-### Categorias
+Categorias
 
 - Criar
 - Listar
@@ -99,7 +105,7 @@ Finalidade:
 
 ---
 
-### Transações
+Transações
 
 - Criar
 - Listar
@@ -112,7 +118,7 @@ Regras:
 
 ---
 
-### Relatórios
+Relatórios
 
 Totais por pessoa:
 
