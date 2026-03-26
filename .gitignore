@@ -1,0 +1,30 @@
+# Node
+node_modules
+dist
+.vite
+.env
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.db
+*.sqlite
+
+# VS
+.vs/
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+frontend/node_modules
+frontend/dist
+backend/bin
+backend/obj
+.vs
